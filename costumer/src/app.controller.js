@@ -13,6 +13,19 @@ class AppController {
     getHello() {
         return this.appService.getHello();
     }
+    @(0, common_1.Get)('barang')
+    getBarang() {
+        return 'solar pertamina bulukumba';
+    }
+    @(0, common_1.Post)('barang/masuk')
+    barangMasuk() {
+        return 'solar masuk';
+    }
+    @(0, common_1.Post)('barang/keluar')
+    barangKeluar() {
+        return `solar
+    keluar`;
+    }
 }
 exports.AppController = AppController;
 //# sourceMappingURL=app.controller.js.map

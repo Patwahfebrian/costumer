@@ -3,5 +3,8 @@ export declare class AppController {
     private readonly appService;
     constructor(appService: AppService);
     getHello(): string;
+    getBarang(): string;
+    barangMasuk(): string;
+    barangKeluar(): string;
 }
 //# sourceMappingURL=app.controller.d.ts.map
