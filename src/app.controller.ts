@@ -12,16 +12,16 @@ export class AppController {
 
   @Get('barang')
   getBarang(): string {
-    return 'solar pertamina bulukumba';
+    return 'Pertamina Caile';
   }
 
   @Post('barang/masuk')
   barangMasuk(): string {
-    return 'solar masuk';
+    return 'BBM masuk';
   }
 
   @Post('barang/keluar')
   barangKeluar(): string {
-    return 'solar keluar';
+    return 'BBM keluar';
   }
 }
